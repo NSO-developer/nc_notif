@@ -1,0 +1,12 @@
+        <interfaces xmlns="http://openconfig.net/yang/interfaces">
+          <interface>
+            <name>GigabitEthernet0/0/0/0</name>
+            <config>
+              <name>GigabitEthernet0/0/0/0</name>
+              <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+              <mtu>1500</mtu>
+              <description>test0</description>
+            </config>
+          </interface>
+        </interfaces>
+

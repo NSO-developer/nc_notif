@@ -1,0 +1,38 @@
+module nc-config-change {
+
+  yang-version 1.1;
+  namespace "http://example.com/ncc";
+  prefix ncc;
+
+  import tailf-common {
+    prefix tailf;
+  }
+  import tailf-ncs {
+    prefix ncs;
+  }
+  import tailf-kicker {
+    prefix kicker;
+  }
+
+  description
+    "Action to sync NSO with the device";
+
+  revision 2022-02-14 {
+    description
+      "Initial revision.";
+  }
+
+  augment "/ncs:devices/ncs:device" {
+
+    container nc-config-change {
+      tailf:action handle-nc-config-notification {
+        tailf:actionpoint handle-nc-config-notification;
+        input {
+          uses kicker:action-input-params;
+        }
+        output {
+        }
+      }
+    }
+  }
+}

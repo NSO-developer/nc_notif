@@ -1,0 +1,13 @@
+module oc-all-nc-1.0 {
+  yang-version 1.1;
+  namespace "http://tail-f.com/ns/ned-id/oc-all-nc-1.0";
+  prefix oc-all-nc-1.0;
+
+  import oc-all-nc {
+    prefix family;
+  }
+
+  identity oc-all-nc-1.0 {
+    base family:oc-all-nc;
+  }
+}

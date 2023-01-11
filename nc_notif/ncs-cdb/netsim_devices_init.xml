@@ -1,0 +1,58 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+   <device>
+     <name>dev0</name>
+     <address>127.0.0.1</address>
+     <port>12022</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-ed25519</algorithm>
+         <key-data>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHBpp8Lb5XiE6sCiPJrBpXgdQcDeml1O/P3ieu8vhFPH waitai@WAITAI-M-KJSH</key-data>
+       </host-key>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCetMGsPxSb8Mvwek+qG/NKlE6qvJtbb1aOPWj5p/WRLNyHVvMUdqJxOXS7dWbE/swvyYC6kxQHddd/MxcnhtiW2XnpZ0YDYlexwJGnvOk/K+n2wtFMbYGSbTRLB+tm7bTDUgivwjSlStYf2x6sXAYlZergjSfyMaQsQHujR3lOD/Z+KYDA3Rwp/gQX1BzeYLxQpm65HgC9RklNW1CMUFyxjxYYSk3vmH1AWmmFSVbp/tpxBEeJ1BsptbgWtuNTZjtaqkcpNGLa6w6K1iaCo8WGX0WfdzXjIt/8+xxVlCINUSeKCMFB15BTzbKZUxWuu4i7cU6Q1KvRlAXA60+jgnKRLdygCLagPQNsOhcdn08DLG7VKVjOyhF7+QGVq1xQvyWsANxnE52JgjoJRuQP0QDXIFhanIU3LVCtODDZOqaBfcZ7kgKms9p75lafHrUfBdKvMPJx/bMTXfILxYOiP7xLuiRPPhfI6uyxM6OZ48/1XCOPXUXLrrlij0NL5vQMJhU= waitai@WAITAI-M-KJSH</key-data>
+       </host-key>
+     </ssh>
+     <ssh-algorithms>
+       <public-key>ssh-ed25519</public-key>
+       <public-key>ssh-rsa</public-key>
+     </ssh-algorithms>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <netconf>
+         <ned-id xmlns:id="http://tail-f.com/ns/ned-id/oc-all-nc-1.0">id:oc-all-nc-1.0</ned-id>
+       </netconf>
+     </device-type>
+   </device>
+   <device>
+     <name>dev1</name>
+     <address>127.0.0.1</address>
+     <port>12023</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-ed25519</algorithm>
+         <key-data>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHBpp8Lb5XiE6sCiPJrBpXgdQcDeml1O/P3ieu8vhFPH waitai@WAITAI-M-KJSH</key-data>
+       </host-key>
+       <host-key>
+         <algorithm>ssh-rsa</algorithm>
+         <key-data>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCetMGsPxSb8Mvwek+qG/NKlE6qvJtbb1aOPWj5p/WRLNyHVvMUdqJxOXS7dWbE/swvyYC6kxQHddd/MxcnhtiW2XnpZ0YDYlexwJGnvOk/K+n2wtFMbYGSbTRLB+tm7bTDUgivwjSlStYf2x6sXAYlZergjSfyMaQsQHujR3lOD/Z+KYDA3Rwp/gQX1BzeYLxQpm65HgC9RklNW1CMUFyxjxYYSk3vmH1AWmmFSVbp/tpxBEeJ1BsptbgWtuNTZjtaqkcpNGLa6w6K1iaCo8WGX0WfdzXjIt/8+xxVlCINUSeKCMFB15BTzbKZUxWuu4i7cU6Q1KvRlAXA60+jgnKRLdygCLagPQNsOhcdn08DLG7VKVjOyhF7+QGVq1xQvyWsANxnE52JgjoJRuQP0QDXIFhanIU3LVCtODDZOqaBfcZ7kgKms9p75lafHrUfBdKvMPJx/bMTXfILxYOiP7xLuiRPPhfI6uyxM6OZ48/1XCOPXUXLrrlij0NL5vQMJhU= waitai@WAITAI-M-KJSH</key-data>
+       </host-key>
+     </ssh>
+     <ssh-algorithms>
+       <public-key>ssh-ed25519</public-key>
+       <public-key>ssh-rsa</public-key>
+     </ssh-algorithms>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <netconf>
+         <ned-id xmlns:id="http://tail-f.com/ns/ned-id/oc-all-nc-1.0">id:oc-all-nc-1.0</ned-id>
+       </netconf>
+     </device-type>
+   </device>
+</devices>

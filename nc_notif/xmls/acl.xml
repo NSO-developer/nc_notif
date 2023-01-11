@@ -1,0 +1,14 @@
+        <acl xmlns="http://openconfig.net/yang/acl">
+          <acl-sets>
+            <acl-set>
+              <name>foo</name>
+              <type>ACL_IPV4</type>
+              <config>
+                <name>foo</name>
+                <type>ACL_IPV4</type>
+                <description>acl for IPV4</description>
+              </config>
+            </acl-set>
+          </acl-sets>
+        </acl>
+
