@@ -2,7 +2,7 @@
  
 # Description
 
-Thie is an NSO example showing how to work with NETCONF notifications to stay in sync with the device
+This is an NSO example showing how to work with NETCONF notifications to stay in sync with the device.
 
 To keep NSO synchronized with out-of-band config changes on the device, a kicker service has been written
 to monitor the NETCONF notifications from the device and take action to sync with the device as necessary.
@@ -29,16 +29,19 @@ $ make (remove all fail-on-warnings in Makefile)
 $ cd ../..
 $ ncs-netsim create-network oc-all 2 dev
 $ ncs-setup --dest .
+```
+
 Modify netsim/dev/dev0/confd.conf and netsim/dev/dev1/confd.conf by adding the notification XML block inside /netconf/capabilities to enable NETCONF notifications
 
 The notification XML block looks as follows:
 
+```
 <notification>
   <enabled>true</enabled>
 </notification>
+```
 
 Add the nc-config-change Python package to the packages directory.  The skeleton service package for Python can be created using “ncs-make-package --service-skeleton python ‘service-package-name’”
-```
 
 ## To start both the netsim devices and NSO
 
